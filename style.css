@@ -5,7 +5,7 @@ body {
 
 form#input, div#output {
     display: grid;
-    grid-template-columns: 225px 85px 200px 0;
+    grid-template-columns: 280px 85px 200px 0;
     margin-bottom: 5px;
 }
 
@@ -23,4 +23,8 @@ hr {
     margin-top: 20px;
     padding: 0 15px;
     border: 1px solid black;
+}
+
+form#input label, div#output label {
+    white-space: nowrap;
 }
