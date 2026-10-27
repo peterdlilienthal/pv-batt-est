@@ -1,7 +1,7 @@
 Promise.all([
     // NOTE: For production.
-    fetch("https://cleanpowereverywhere.com/metadata.json"),
-    fetch("https://cleanpowereverywhere.com/data.json"),
+    fetch("metadata.json"),
+    fetch("data.json"),
 
     // NOTE: For local development only.
     // fetch("http://localhost:8000/metadata.json"),
